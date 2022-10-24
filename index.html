@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>cityClimate</title>
+</head>
+
+<body>
+  <nav data-navSearch>
+    <input data-search type="text" placeholder="digite a cidade">
+    <button data-buttonSeatch><img src="img/search60.svg" data-buttonImage width="100%" height="100%"></button>
+  </nav>
+  <article data-container>
+    <ul data-list>
+      <li data-card class="remove">
+        <button data-cardClose></button>
+        <img data-weather src="img/weather-48.png">
+        <h2 data-temp></h2>
+        <p data-description></p>
+        <p data-city class="cidade"></p>
+        <p data-data></p>
+      </li>
+    </ul>
+  </article>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

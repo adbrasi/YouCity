@@ -1,0 +1,12 @@
+{
+  "name": "CityTemp",
+  "permissions": ["storage"],
+  "version": "1.0.0",
+  "description": "weather of your city",
+  "manifest_version": 3,
+  "author": "Adolfo Cesar",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "City Temp"
+  }
+}
