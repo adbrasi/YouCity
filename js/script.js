@@ -27,7 +27,7 @@ async function city() {
   const { lon } = latLot[0];
   async function climates() {
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=d36e176b74ed15f2b76f46ac6535c30e&&units=metric`
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=d36e176b74ed15f2b76f46ac6535c30e&&units=metric`
     );
     const dados = await response.json();
     const { temp } = dados.list[0].main;
